@@ -12,7 +12,7 @@ while status:
     option = menu.get_items()
     user_input = input(f" What would you like? {option}").lower()
     if user_input == "off":
-        status =False
+        status = False
     elif user_input == "report":
         coffee_maker.report()
         money_machine.report()
